@@ -2,7 +2,9 @@
 /**
  * Description of CurlHelper
  *
- * @author Giuseppe Dezute Fechio <giuseppe.fechio@hotmail.net>
+ * Simple helper with Curl request
+ *
+ * @author Giuseppe Dezute Fechio <giuseppe.fechio@hotmail.com>
  *
  * Version: 1.0.1
  */
