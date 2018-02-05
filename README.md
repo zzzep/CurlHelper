@@ -38,8 +38,8 @@ Usage:
 		$curl = new CurlHelper();
 		
 		$headers = array(
-			'Content-type: application/xml',
-			'Authorization: gfhjui',
+			'Content-type: application/json',
+			'Authorization: Auth123',
 		);
 		
-		$curl->setHeader($headers)->response();
+		$response = $curl->setHeader($headers)->response("http://example.com");
