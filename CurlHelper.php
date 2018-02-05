@@ -36,5 +36,10 @@ class CurlHelper {
         curl_setopt($this->ch, CURLOPT_POSTFIELDS, http_build_query($data));
         return $this;
     }
+	
+	public function setHeader($headers){
+		curl_setopt($this->ch, CURLOPT_HTTPHEADER , http_build_query($headers) );
+		return $this;
+	}
 
 }
