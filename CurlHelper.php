@@ -39,9 +39,9 @@ class CurlHelper {
         return $this;
     }
 	
-	public function setHeader($headers){
-		curl_setopt($this->ch, CURLOPT_HTTPHEADER , http_build_query($headers) );
-		return $this;
-	}
+    public function setHeader($headers){
+        curl_setopt($this->ch, CURLOPT_HTTPHEADER , http_build_query($headers) );
+        return $this;
+    }
 
 }
