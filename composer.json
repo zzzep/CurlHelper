@@ -1,0 +1,7 @@
+{
+    "name": "zzzep/CurlHelper",
+    "description": "A short Program to Help with Curl",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
+}
