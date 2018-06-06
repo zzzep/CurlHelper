@@ -1,7 +1,18 @@
 {
-    "name": "zzzep/CurlHelper",
-    "description": "A short Program to Help with Curl",
-    "require": {
-        "php": "^5.3.3 || ^7.0"
-    }
+  "name": "zzzep/CurlHelper",
+  "description": "`A simple CurlHelper",
+  "version": "1.0.1",
+  "license": "MIT",
+  "type": "package",
+  "authors": [
+      {
+        "name": "Giuseppe Fechio",
+        "email": "giuseppe.fechio@hotmail.com"
+      }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "files": ["src/helper.php"]
+  }
 }
